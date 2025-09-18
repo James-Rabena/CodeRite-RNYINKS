@@ -115,13 +115,13 @@ session_start();
     } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
 
     const firebaseConfig = {
-      apiKey: "AIzaSyDSATkg3AQiM5GNq1a5zDByCRWdqQrUVZk",
-      authDomain: "rnyinks-c600f.firebaseapp.com",
-      projectId: "rnyinks-c600f",
-      storageBucket: "rnyinks-c600f.firebasestorage.app",
-      messagingSenderId: "532037944294",
-      appId: "1:532037944294:web:6a15fb2b533d31a4c50c27",
-      measurementId: "G-355ZHNRZ84"
+      apiKey: "insert your api key here",
+      authDomain: "r",
+      projectId: "
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: "1",
+      measurementId: ""
     };
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
@@ -186,5 +186,6 @@ session_start();
     });
   </script>
 </body>
+
 
 </html>
