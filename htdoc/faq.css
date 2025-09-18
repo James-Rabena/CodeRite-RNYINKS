@@ -1,0 +1,49 @@
+html {
+  overflow-y: scroll; /* Ensures the scrollbar is always visible */
+}
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .faq-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .faq-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .faq-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .faq-question {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .faq-answer {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+  
+  a.text-decoration-none {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a.text-decoration-none:hover {
+    text-decoration: underline;
+  }
+

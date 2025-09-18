@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f8f9fa; /* Very light gray background */
+    color: #495057; /* Darker gray text */
+    line-height: 1.6;
+}
+
+.container {
+    width: 95%; /* Slightly wider container */
+    max-width: 1200px;
+    margin: 30px auto; /* More top/bottom margin */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05); /* Softer shadow */
+}
+
+header {
+    text-align: left; /* Align header text to the left */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dee2e6; /* Light gray border */
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #343a40; /* Darker heading text */
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: #343a40;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #dee2e6; /* Light gray table border */
+    border-radius: 4px;
+    overflow: hidden; /* To contain the border-radius */
+}
+
+th, td {
+    padding: 12px 15px; /* Increased padding */
+    border: 1px solid #dee2e6; /* Light gray cell border */
+    text-align: left;
+    vertical-align: middle; /* Align text vertically in the middle */
+}
+
+th {
+    background-color: #e9ecef; /* Light gray header background */
+    font-weight: 600; /* Slightly bolder header text */
+    color: #343a40;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Very light gray for even rows */
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2; /* Slightly darker on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #dee2e6; /* Light gray border */
+    color: #6c757d; /* Medium gray footer text */
+    font-size: 0.9rem;
+}
+
+/* User dropdown styles */
+.user-dropdown {
+    position: absolute;
+    top: 15px; /* Adjust top position */
+    right: 20px;
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 500; /* Slightly less bold */
+    color: #343a40;
+    border-radius: 4px;
+}
+
+.dropdown-button:hover {
+    background-color: #e9ecef;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: #fff;
+    min-width: 120px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Softer shadow */
+    z-index: 1;
+    right: 0;
+    top: 45px; /* Adjust top position */
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 4px;
+    display: none;
+}
+
+.dropdown-content a {
+    color: #495057;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #e9ecef;
+}
+
+.show {
+    display: block;
+}
+
+/* Style for the select dropdown */
+select {
+    padding: 8px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+    background-color: #fff;
+    color: #495057;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff; /* Bootstrap primary color for focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Style for the update button */
+table button {
+    padding: 8px 12px;
+    margin-top: 0; /* Remove default top margin */
+    cursor: pointer;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.15s ease-in-out;
+}
+
+table button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+table button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
