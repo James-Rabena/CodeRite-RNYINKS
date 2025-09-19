@@ -15,7 +15,7 @@ if (!$idToken) {
 }
 
 // 🔹 Verify Firebase ID token
-$verifyUrl = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/getAccountInfo?key=AIzaSyDSATkg3AQiM5GNq1a5zDByCRWdqQrUVZk';
+$verifyUrl = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/getAccountInfo?key=';
 $ch = curl_init($verifyUrl);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(['idToken' => $idToken]));
@@ -76,3 +76,4 @@ $_SESSION['user_name'] = $user['firstname'] . ' ' . $user['lastname'];
 $_SESSION['user_role'] = $user['role'];
 
 echo json_encode(['success' => true]);
+
